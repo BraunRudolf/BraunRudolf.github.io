@@ -56,7 +56,7 @@ While it was my mistake not to read the documentation thoroughly, I’m not alon
 The current documentation lists only three “Common Setups,” and while one could argue that an NFS store is similar to a local file system, the interaction between the MLFlow tracking server, NFS, and the Tracking API is quite different. Therefore, I propose adding a fourth setup (an idea not originally mine, as seen in the last issue):
 
 ![MLFlow Setup Proposal](assets/img/posts/MLFlow_4.png)  
-_Modified form from [here](https://mlflow.org/docs/latest/tracking.html#components)_
+_Modified form [here](https://mlflow.org/docs/latest/tracking.html#components)_
 
 Perhaps the assumption is that users of NFS or other network-attached storage solutions with MLFlow already know what they’re doing, which might be why the current documentation is considered sufficient.
 
