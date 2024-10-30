@@ -42,7 +42,7 @@ social:
     - https://github.com/braunrudolf # change to your GitHub homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
-    - https://www.linkedin.com/in/braunrudolf/
+    # - https://www.linkedin.com/in/braunrudolf/
 
 # Site Verification Settings
 webmaster_verifications:
@@ -186,6 +186,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  categoies:
+    output: true
+    permalink: categories/:path/
 
 defaults:
   - scope:
@@ -231,3 +234,11 @@ exclude:
   - "*.config.js"
   - package*.json
 
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

@@ -4,10 +4,10 @@ title: 'Lessons Learned: Deploying MLFlow with NFS Artifact Store'
 date: 2024-10-30 10:30 +0100
 description: Learn from my experience setting up MLFlow with an NFS artifact store.
 image:
-category:
-tags:
+category: [Lessons Learned]
+tags: [mlflow, nfs]
 published: true
-sitemap: false
+sitemap: true
 ---
 ## TL;DR
 
