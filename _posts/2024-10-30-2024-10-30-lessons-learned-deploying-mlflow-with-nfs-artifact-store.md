@@ -5,7 +5,7 @@ date: 2024-10-30 10:30 +0100
 description: Learn from my experience setting up MLFlow with an NFS artifact store.
 image:
 category: Leassons Learned
-tags: MLFlow, NFS
+tags: [mlflow, nfs] 
 published: true
 sitemap: false
 ---
