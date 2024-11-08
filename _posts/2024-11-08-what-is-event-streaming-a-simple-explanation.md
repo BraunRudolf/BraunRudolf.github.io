@@ -4,8 +4,8 @@ title: What is Event Streaming? A Simple Explanation
 date: 2024-11-08 16:56 +0100
 description:
 image:
-category:
-tags:
+category: [Event Streaming] 
+tags: [event streaming, kafka]
 published: true
 sitemap: true
 ---
