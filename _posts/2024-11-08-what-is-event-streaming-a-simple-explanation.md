@@ -2,7 +2,7 @@
 layout: post
 title: What is Event Streaming? A Simple Explanation
 date: 2024-11-08 16:56 +0100
-description:
+description: 'A short introduction to event streaming.'
 image:
 category: [Event Streaming] 
 tags: [event streaming, kafka]
@@ -11,7 +11,7 @@ sitemap: true
 ---
 ## TL;DR
 
-Describes how events from event sources form event streams, which are processed using event stream processing and delivered to event sinks. This requires an event streaming platform to manage and process each part of the flow.
+Event streaming describes how events from event sources form event streams, which are processed using event stream processing and delivered to event sinks. This requires an event streaming platform to manage and process each part of the flow.
 
 ## Intention
 
